@@ -1,0 +1,28 @@
+{
+  "label": "Estimated fleet-relative review signal",
+  "formula": "45*min(speed_area/750,1) + 30*min(abs_vmg_area/750,1) + recovery_signal - uncertainty_deduction",
+  "components": {
+    "speed_separation_component": {
+      "raw": 670.2786517524717,
+      "points": 40.2167191051483
+    },
+    "abs_vmg_separation_component": {
+      "raw": 730.4326725912094,
+      "points": 29.217306903648378
+    },
+    "recovery_delay_component": {
+      "status": "unrecovered within +30s review window",
+      "points": 15
+    },
+    "review_uncertainty_component": {
+      "opposite_vmg_sign_rate": 0.4146341463414634,
+      "unrecovered": true,
+      "baseline_confidence": "high",
+      "loss_confidence": "high",
+      "data_gap_near_center": false,
+      "deduction_points": 7.073170731707316
+    }
+  },
+  "net_review_signal_points": 77.36085527708936,
+  "interpretation": "Normalized triage aid for manual review; not a measured elapsed-time attribution."
+}

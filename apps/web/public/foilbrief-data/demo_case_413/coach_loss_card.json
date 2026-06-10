@@ -1,0 +1,60 @@
+{
+  "header": {
+    "race": "Bermuda_Race_2",
+    "team": "ITA",
+    "maneuver": "candidate gybe",
+    "maneuver_id": 413,
+    "context": "near mark LG2"
+  },
+  "estimated_review_signal": {
+    "demo_triage_score": 0.9759333333333334,
+    "normalized_review_signal_points": 77.36085527708936,
+    "speed_separation": 670.2786517524717,
+    "absolute_vmg_separation": 730.4326725912094,
+    "recovery_status": "unrecovered within +30s review window",
+    "confidence": "high baseline / high loss",
+    "risk_flags": [
+      "unrecovered within review window",
+      "signed VMG polarity caveat"
+    ]
+  },
+  "telemetry_suggests": [
+    "The boat showed persistent speed and absolute-VMG separation from the fleet median after the candidate gybe window.",
+    "The maneuver did not recover within the review window.",
+    "The post-gybe recovery phase is worth analyst review."
+  ],
+  "evidence": {
+    "speed_drop_window": 26.18475334167482,
+    "vmg_drop_window": -1.5803263950347741,
+    "relative_speed_loss_area": 670.2786517524717,
+    "abs_relative_vmg_loss_area": 730.4326725912094,
+    "time_below_fleet_speed": 41.0,
+    "time_below_fleet_vmg": 3.0,
+    "recovery_time_to_90": null,
+    "recovery_time_to_95": null,
+    "baseline_sample_count_median": 7.0,
+    "baseline_confidence": "high",
+    "loss_confidence": "high",
+    "demo_candidate_score": 0.9759333333333334,
+    "opposite_vmg_sign_rate": 0.4146341463414634
+  },
+  "coach_review_focus": [
+    "Review the first 10 to 30 seconds after the candidate gybe.",
+    "Compare speed build and absolute VMG recovery against the fleet median.",
+    "Check whether wing trim, rudder angle, or foil/rake signals show delayed stabilization if available; treat these as review signals only."
+  ],
+  "available_control_fields": [
+    "ANGLE_WING_ROT_deg",
+    "ANGLE_WING_TWIST_deg",
+    "ANGLE_RUDDER_deg",
+    "ANGLE_DB_RAKE_P_deg",
+    "ANGLE_DB_RAKE_S_deg",
+    "ANGLE_DB_CANT_P_deg",
+    "ANGLE_DB_CANT_S_deg"
+  ],
+  "caveats": [
+    "Estimated fleet-relative review signal, not a measured elapsed-time attribution.",
+    "Signed VMG has polarity caveats; absolute VMG magnitude is used for safer demo evidence.",
+    "Requires human analyst review before any coaching decision."
+  ]
+}

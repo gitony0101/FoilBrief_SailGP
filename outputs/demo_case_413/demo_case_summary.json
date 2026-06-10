@@ -1,0 +1,16 @@
+{
+  "maneuver_id": 413,
+  "canonical_race_id": "Bermuda_Race_2",
+  "team": "ITA",
+  "maneuver_type": "candidate gybe",
+  "context": "near mark LG2",
+  "selected_because": "high-confidence candidate with readable turn context, clear TWA/yaw transition, and persistent fleet-relative speed and absolute-VMG separation",
+  "demo_candidate_score": 0.9759333333333334,
+  "known_risks": [
+    "unrecovered within +30s review window",
+    "signed VMG polarity requires caution"
+  ],
+  "recommended_use": "Primary single-case demonstration after human approval",
+  "one_sentence_demo_story": "FoilBrief flags ITA's gybe near LG2 in Bermuda Race 2 because the boat shows persistent fleet-relative speed and absolute-VMG separation after the maneuver, making the recovery phase worth coach review.",
+  "why_low_confidence_stage2_leaders_rejected": "Primary selection requires supported labels, baselines, and readable evidence."
+}

@@ -1,0 +1,679 @@
+{
+  "total_maneuvers": 1336,
+  "unique_teams": 13,
+  "total_races": 14,
+  "counts_by_maneuver_type": {
+    "gybe": 267,
+    "low_confidence_turn": 540,
+    "mark_rounding": 43,
+    "tack": 486
+  },
+  "counts_by_review_tier": {
+    "high_review_priority": 179,
+    "medium_review_priority": 534,
+    "low_review_priority": 24,
+    "exclude_from_demo": 599
+  },
+  "primary_demo_maneuver_id": 413,
+  "primary_demo_final_card_available": true,
+  "top_10_review_candidates": [
+    {
+      "maneuver_id": 413,
+      "canonical_race_id": "Bermuda_Race_2",
+      "team": "ITA",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9759333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "primary_demo"
+    },
+    {
+      "maneuver_id": 238,
+      "canonical_race_id": "Halifax_Race_1",
+      "team": "USA",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9745333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 1051,
+      "canonical_race_id": "Bermuda_Race_6",
+      "team": "DEN",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9721333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 1,
+      "canonical_race_id": "Halifax_Race_1",
+      "team": "AUS",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9663333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 1238,
+      "canonical_race_id": "Bermuda_Race_7",
+      "team": "GBR",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9631333333333333,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 40,
+      "canonical_race_id": "Halifax_Race_1",
+      "team": "CAN",
+      "maneuver_type": "gybe",
+      "demo_triage_score": 0.9599333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 661,
+      "canonical_race_id": "Halifax_Race_4",
+      "team": "DEN",
+      "maneuver_type": "tack",
+      "demo_triage_score": 0.9585333333333335,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 612,
+      "canonical_race_id": "Halifax_Race_4",
+      "team": "AUS",
+      "maneuver_type": "tack",
+      "demo_triage_score": 0.9579333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 1268,
+      "canonical_race_id": "Bermuda_Race_7",
+      "team": "SUI",
+      "maneuver_type": "tack",
+      "demo_triage_score": 0.9541333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    },
+    {
+      "maneuver_id": 528,
+      "canonical_race_id": "Bermuda_Race_3",
+      "team": "DEN",
+      "maneuver_type": "tack",
+      "demo_triage_score": 0.9513333333333334,
+      "review_tier": "high_review_priority",
+      "recommended_use": "candidate_review"
+    }
+  ],
+  "team_maneuver_summary": [
+    {
+      "team": "AUS",
+      "maneuver_type": "gybe",
+      "count": 25,
+      "high_review_priority_count": 2,
+      "medium_review_priority_count": 22,
+      "low_review_priority_count": 0,
+      "exclude_count": 1,
+      "median_demo_triage_score": 0.4698333333333333,
+      "max_demo_triage_score": 0.9663333333333334
+    },
+    {
+      "team": "AUS",
+      "maneuver_type": "low_confidence_turn",
+      "count": 65,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 65,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "AUS",
+      "maneuver_type": "mark_rounding",
+      "count": 6,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 0,
+      "exclude_count": 5,
+      "median_demo_triage_score": 0.0648,
+      "max_demo_triage_score": 0.0648
+    },
+    {
+      "team": "AUS",
+      "maneuver_type": "tack",
+      "count": 44,
+      "high_review_priority_count": 8,
+      "medium_review_priority_count": 34,
+      "low_review_priority_count": 2,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.44743333333333335,
+      "max_demo_triage_score": 0.9579333333333334
+    },
+    {
+      "team": "BRA",
+      "maneuver_type": "gybe",
+      "count": 27,
+      "high_review_priority_count": 5,
+      "medium_review_priority_count": 22,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.4871666666666667,
+      "max_demo_triage_score": 0.9096
+    },
+    {
+      "team": "BRA",
+      "maneuver_type": "low_confidence_turn",
+      "count": 16,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 16,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "BRA",
+      "maneuver_type": "mark_rounding",
+      "count": 5,
+      "high_review_priority_count": 1,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 1,
+      "exclude_count": 2,
+      "median_demo_triage_score": 0.4652666666666667,
+      "max_demo_triage_score": 0.8590666666666668
+    },
+    {
+      "team": "BRA",
+      "maneuver_type": "tack",
+      "count": 43,
+      "high_review_priority_count": 13,
+      "medium_review_priority_count": 23,
+      "low_review_priority_count": 4,
+      "exclude_count": 3,
+      "median_demo_triage_score": 0.6215166666666667,
+      "max_demo_triage_score": 0.9145333333333334
+    },
+    {
+      "team": "CAN",
+      "maneuver_type": "gybe",
+      "count": 19,
+      "high_review_priority_count": 2,
+      "medium_review_priority_count": 17,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.41806666666666664,
+      "max_demo_triage_score": 0.9599333333333334
+    },
+    {
+      "team": "CAN",
+      "maneuver_type": "low_confidence_turn",
+      "count": 63,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 63,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "CAN",
+      "maneuver_type": "mark_rounding",
+      "count": 7,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 7,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "CAN",
+      "maneuver_type": "tack",
+      "count": 33,
+      "high_review_priority_count": 11,
+      "medium_review_priority_count": 22,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.596,
+      "max_demo_triage_score": 0.8842333333333333
+    },
+    {
+      "team": "DEN",
+      "maneuver_type": "gybe",
+      "count": 26,
+      "high_review_priority_count": 6,
+      "medium_review_priority_count": 19,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.4701333333333334,
+      "max_demo_triage_score": 0.9721333333333334
+    },
+    {
+      "team": "DEN",
+      "maneuver_type": "low_confidence_turn",
+      "count": 60,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 60,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "DEN",
+      "maneuver_type": "mark_rounding",
+      "count": 4,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": 0.2735333333333333,
+      "max_demo_triage_score": 0.2735333333333333
+    },
+    {
+      "team": "DEN",
+      "maneuver_type": "tack",
+      "count": 44,
+      "high_review_priority_count": 13,
+      "medium_review_priority_count": 28,
+      "low_review_priority_count": 1,
+      "exclude_count": 2,
+      "median_demo_triage_score": 0.4875333333333333,
+      "max_demo_triage_score": 0.9585333333333335
+    },
+    {
+      "team": "ESP",
+      "maneuver_type": "gybe",
+      "count": 18,
+      "high_review_priority_count": 1,
+      "medium_review_priority_count": 16,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.5215333333333334,
+      "max_demo_triage_score": 0.7800666666666668
+    },
+    {
+      "team": "ESP",
+      "maneuver_type": "low_confidence_turn",
+      "count": 52,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 52,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "ESP",
+      "maneuver_type": "mark_rounding",
+      "count": 3,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": 0.9414000000000001,
+      "max_demo_triage_score": 0.9414000000000001
+    },
+    {
+      "team": "ESP",
+      "maneuver_type": "tack",
+      "count": 47,
+      "high_review_priority_count": 3,
+      "medium_review_priority_count": 40,
+      "low_review_priority_count": 1,
+      "exclude_count": 3,
+      "median_demo_triage_score": 0.44115000000000004,
+      "max_demo_triage_score": 0.9663333333333334
+    },
+    {
+      "team": "FRA",
+      "maneuver_type": "gybe",
+      "count": 15,
+      "high_review_priority_count": 4,
+      "medium_review_priority_count": 10,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.6586833333333333,
+      "max_demo_triage_score": 0.9375333333333334
+    },
+    {
+      "team": "FRA",
+      "maneuver_type": "low_confidence_turn",
+      "count": 46,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 46,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "FRA",
+      "maneuver_type": "tack",
+      "count": 40,
+      "high_review_priority_count": 6,
+      "medium_review_priority_count": 29,
+      "low_review_priority_count": 4,
+      "exclude_count": 1,
+      "median_demo_triage_score": 0.43025,
+      "max_demo_triage_score": 0.9239333333333334
+    },
+    {
+      "team": "GBR",
+      "maneuver_type": "gybe",
+      "count": 24,
+      "high_review_priority_count": 8,
+      "medium_review_priority_count": 14,
+      "low_review_priority_count": 1,
+      "exclude_count": 1,
+      "median_demo_triage_score": 0.4738833333333333,
+      "max_demo_triage_score": 0.9631333333333333
+    },
+    {
+      "team": "GBR",
+      "maneuver_type": "low_confidence_turn",
+      "count": 75,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 75,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "GBR",
+      "maneuver_type": "mark_rounding",
+      "count": 3,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "GBR",
+      "maneuver_type": "tack",
+      "count": 50,
+      "high_review_priority_count": 7,
+      "medium_review_priority_count": 36,
+      "low_review_priority_count": 0,
+      "exclude_count": 7,
+      "median_demo_triage_score": 0.40043333333333336,
+      "max_demo_triage_score": 0.9077333333333334
+    },
+    {
+      "team": "GER",
+      "maneuver_type": "gybe",
+      "count": 24,
+      "high_review_priority_count": 5,
+      "medium_review_priority_count": 18,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.4389,
+      "max_demo_triage_score": 0.8859333333333332
+    },
+    {
+      "team": "GER",
+      "maneuver_type": "low_confidence_turn",
+      "count": 54,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 54,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "GER",
+      "maneuver_type": "mark_rounding",
+      "count": 5,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 5,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "GER",
+      "maneuver_type": "tack",
+      "count": 36,
+      "high_review_priority_count": 10,
+      "medium_review_priority_count": 25,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.5185333333333333,
+      "max_demo_triage_score": 0.9369999999999999
+    },
+    {
+      "team": "ITA",
+      "maneuver_type": "gybe",
+      "count": 24,
+      "high_review_priority_count": 10,
+      "medium_review_priority_count": 14,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.6330166666666668,
+      "max_demo_triage_score": 0.9759333333333334
+    },
+    {
+      "team": "ITA",
+      "maneuver_type": "low_confidence_turn",
+      "count": 10,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 10,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "ITA",
+      "maneuver_type": "mark_rounding",
+      "count": 1,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 1,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "ITA",
+      "maneuver_type": "tack",
+      "count": 40,
+      "high_review_priority_count": 12,
+      "medium_review_priority_count": 25,
+      "low_review_priority_count": 1,
+      "exclude_count": 2,
+      "median_demo_triage_score": 0.4829,
+      "max_demo_triage_score": 0.9218
+    },
+    {
+      "team": "NZL",
+      "maneuver_type": "gybe",
+      "count": 7,
+      "high_review_priority_count": 2,
+      "medium_review_priority_count": 5,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.5712333333333334,
+      "max_demo_triage_score": 0.9285333333333333
+    },
+    {
+      "team": "NZL",
+      "maneuver_type": "low_confidence_turn",
+      "count": 3,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "NZL",
+      "maneuver_type": "mark_rounding",
+      "count": 3,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "NZL",
+      "maneuver_type": "tack",
+      "count": 15,
+      "high_review_priority_count": 2,
+      "medium_review_priority_count": 11,
+      "low_review_priority_count": 1,
+      "exclude_count": 1,
+      "median_demo_triage_score": 0.4995166666666667,
+      "max_demo_triage_score": 0.8891333333333333
+    },
+    {
+      "team": "SUI",
+      "maneuver_type": "gybe",
+      "count": 21,
+      "high_review_priority_count": 4,
+      "medium_review_priority_count": 17,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.3774,
+      "max_demo_triage_score": 0.9369333333333333
+    },
+    {
+      "team": "SUI",
+      "maneuver_type": "low_confidence_turn",
+      "count": 51,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 51,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "SUI",
+      "maneuver_type": "mark_rounding",
+      "count": 1,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.5031333333333333,
+      "max_demo_triage_score": 0.5031333333333333
+    },
+    {
+      "team": "SUI",
+      "maneuver_type": "tack",
+      "count": 35,
+      "high_review_priority_count": 11,
+      "medium_review_priority_count": 23,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.43710000000000004,
+      "max_demo_triage_score": 0.9541333333333334
+    },
+    {
+      "team": "SWE",
+      "maneuver_type": "gybe",
+      "count": 10,
+      "high_review_priority_count": 1,
+      "medium_review_priority_count": 8,
+      "low_review_priority_count": 1,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.46986666666666665,
+      "max_demo_triage_score": 0.783
+    },
+    {
+      "team": "SWE",
+      "maneuver_type": "low_confidence_turn",
+      "count": 2,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 2,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "SWE",
+      "maneuver_type": "mark_rounding",
+      "count": 4,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 0,
+      "exclude_count": 3,
+      "median_demo_triage_score": 0.37523333333333336,
+      "max_demo_triage_score": 0.37523333333333336
+    },
+    {
+      "team": "SWE",
+      "maneuver_type": "tack",
+      "count": 19,
+      "high_review_priority_count": 3,
+      "medium_review_priority_count": 14,
+      "low_review_priority_count": 1,
+      "exclude_count": 1,
+      "median_demo_triage_score": 0.31043333333333334,
+      "max_demo_triage_score": 0.8769333333333335
+    },
+    {
+      "team": "USA",
+      "maneuver_type": "gybe",
+      "count": 27,
+      "high_review_priority_count": 12,
+      "medium_review_priority_count": 13,
+      "low_review_priority_count": 0,
+      "exclude_count": 2,
+      "median_demo_triage_score": 0.6613666666666667,
+      "max_demo_triage_score": 0.9745333333333334
+    },
+    {
+      "team": "USA",
+      "maneuver_type": "low_confidence_turn",
+      "count": 43,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 0,
+      "low_review_priority_count": 0,
+      "exclude_count": 43,
+      "median_demo_triage_score": null,
+      "max_demo_triage_score": null
+    },
+    {
+      "team": "USA",
+      "maneuver_type": "mark_rounding",
+      "count": 1,
+      "high_review_priority_count": 0,
+      "medium_review_priority_count": 1,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.20833333333333337,
+      "max_demo_triage_score": 0.20833333333333337
+    },
+    {
+      "team": "USA",
+      "maneuver_type": "tack",
+      "count": 40,
+      "high_review_priority_count": 17,
+      "medium_review_priority_count": 23,
+      "low_review_priority_count": 0,
+      "exclude_count": 0,
+      "median_demo_triage_score": 0.5902833333333334,
+      "max_demo_triage_score": 0.9287333333333333
+    }
+  ],
+  "notes": [
+    "All maneuver_id values are indexed before the single deep-dive case is selected.",
+    "Review scores are internal review queue signals derived from fleet-relative telemetry evidence.",
+    "The human analyst makes the final review decision."
+  ]
+}
