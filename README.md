@@ -4,11 +4,8 @@ FoilBrief is a SailGP post-race decision-support app that turns telemetry into a
 
 - **Challenge stream:** On the Water
 - **Target user:** SailGP performance analysts and coaches
-- **Live demo:** `https://foil-brief-sail-gp-hackathon.vercel.app`
+- **Live demo:** https://foil-brief-sail-gp-hackathon.vercel.app
 - **Video presentation:** https://www.youtube.com/watch?v=QG3CVobmdnI
-
-[![Watch the FoilBrief demo video](https://img.youtube.com/vi/QG3CVobmdnI/hqdefault.jpg)](https://www.youtube.com/watch?v=QG3CVobmdnI)
-
 
 ## What FoilBrief Does
 
